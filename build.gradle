@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group = 'club.bottomservices.discordrpc'
+version = '1.2.2'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.11.0'
+    implementation 'com.google.code.findbugs:jsr305:3.0.2'
+    implementation 'org.slf4j:slf4j-api:2.0.16'
+}
