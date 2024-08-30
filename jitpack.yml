@@ -2,3 +2,6 @@ jdk:
   - openjdk21
 install:
   - ./gradlew build
+before_install:
+  - sdk install java 21.0.4-open
+  - sdk use java 21.0.4-open
